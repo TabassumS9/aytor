@@ -1,0 +1,143 @@
+
+@media (min-width:992px) and (max-width:1199px){
+    #banner .bannerSlider .text h2 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 40px;
+        color: #1D1D1D;
+        transition-delay: 0.2s;
+    }
+    #banner .slick-dots {
+        position: absolute;
+        bottom: 240px;
+        left: 0px;
+    }
+    #categories .categories-card .overlay {
+        padding-top:55px;
+    }
+    #categories .img-3 .overlay{
+        padding-top: 150px;
+        inset: 20px;
+    }
+    
+}
+@media (min-width:768px) and (max-width:991px){
+    #banner .bannerSlider {
+        height: 500px;
+        
+    }
+    #banner .bannerSlider .row {
+        height: 500px;
+    }
+    #banner .bannerSlider .text h2 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 40px;
+        color: #1D1D1D;
+        transition-delay: 0.2s;
+    }
+    #banner .bannerSlider .text p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 28px;
+        color: #1D1D1D;
+        margin: 15px 0;
+        transition-delay: 0.4s;
+    }
+    .button {
+        background-color: var(--primarycolor);
+        font-weight: 600;
+        font-size: 14px;
+        color: white;
+        padding: 12px 15px;
+        display: inline-block;
+    }
+    #banner .slick-dots {
+        position: absolute;
+        bottom: 120px;
+        left: 30px;
+    }
+    #banner .bannerSlider .text{
+        margin-top: -10px;
+        width: 45%;
+    }
+    #categories .categories-card .overlay {
+        padding-top: 50px;
+    }
+    #arrival_product .arrows .right{
+        position: absolute;
+        opacity: 0.5;
+        background: #151A32;
+        margin-left: 2160px;
+        margin-right: 0px;
+        width: 30px;
+        height: 50px;
+        line-height: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+@media (min-width:320px) and (max-width:767px){
+    #banner .bannerSlider {
+        height: 300px;
+        
+    }
+    #banner .bannerSlider .row {
+        height: 300px;
+    }
+    #banner .bannerSlider .text{
+        margin-top: -80px;
+        width: 100%;
+    }
+    #banner .bannerSlider .text p {
+        font-size: 12px;
+    }
+    #banner .bannerSlider .text h2 {
+        font-size: 16px;
+        line-height: 16px;
+        
+    }
+    #banner .slick-dots {
+        position: absolute;
+        bottom: 40px;
+        left: 100px;
+        text-align: center;
+        background: transparent;
+    }
+    .button {
+        font-size: 12px;
+        color: white;
+        padding: 5px 9px;
+    }
+    #banner .bannerSlider .text h3 {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 14px;
+    }
+    #banner .slick-dots button{
+        width: 14px;
+        height: 7px;
+    }
+    #categories .categories-card .overlay {
+        padding-top: 50px;
+    }
+    #arrival_product h2{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 46px;
+        color: #11161E;
+        text-align: center;
+        padding-bottom: 36px;
+    }
+  
+
+}
+@media (min-width:1200px) and (max-width:1399px){
+    #banner .slick-dots {
+        position: absolute;
+        bottom: 200px;
+        left: 40px;
+        text-align: center;
+    }
+}
